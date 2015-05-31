@@ -4,7 +4,7 @@ node('master') {
   stage "Dev"
   dir('chefconf-2015') {
     ROOT=pwd()
-    git 'https://github.com/uaarkoti/chefconf-2015.git'
+    git 'https://github.com/tjsoftworks/chefconf-2015.git'
 
     dir('chef-ci-tools') {
       git 'https://github.com/woohgit/chef-ci-tools.git'
